@@ -1,6 +1,7 @@
 
 import React from "react";
 import { FaYoutube, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 export const Header = () => {
   return (
@@ -18,7 +19,7 @@ export const Header = () => {
       <nav className="flex flex-wrap justify-center gap-6 text-sm font-medium uppercase">
         <a href="#home" className="text-gray-400 italic">Home</a>
         <a href="#photography" className="hover:text-black">Photography</a>
-        <a href="#blog" className="hover:text-black">Blog</a>
+        <a href="#blogs" className="hover:text-black">Blog</a>
         <a href="#downloads" className="hover:text-black">Downloads</a>
         <a href="#store" className="hover:text-black">Store</a>
         <a href="#about" className="hover:text-black">About</a>

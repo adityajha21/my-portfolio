@@ -7,8 +7,8 @@ export const Hero = () => {
       <p className="text-lg md:text-2xl mb-6 max-w-xl">
         A Software Engineer passionate about Java, Spring Boot, and AI.
       </p>
-      <a href="#projects" className="bg-white text-indigo-600 px-6 py-3 rounded-xl shadow-lg hover:bg-gray-100 transition">
-        View My Work
+      <a href="#blogs" className="bg-white text-indigo-600 px-6 py-3 rounded-xl shadow-lg hover:bg-gray-100 transition">
+        check my blog
       </a>
     </section>
   );
